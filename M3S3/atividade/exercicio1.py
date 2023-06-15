@@ -1,5 +1,5 @@
 def precocomdesconto(valor_unitario, quantidade):
-    """função que retornara o valor com desconto e sem desconto"""
+    #função que retornara o valor com desconto e sem desconto
     desconto = 1
     if quantidade >= 10 and quantidade <= 99:
         desconto = 0.95
